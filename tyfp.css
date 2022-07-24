@@ -12,7 +12,7 @@ body {
 
 .logo {
     width: 100px;
-    height: 100px;
+    height: 50px;
 }
 
 #left-menu {
@@ -23,8 +23,8 @@ body {
 }
 
 #sch-logo {
-    width: 120px;
-    height: 100px;
+    width: 100px;
+    height: 50px;
     padding-left: 20px;
 }
 
@@ -61,6 +61,10 @@ body {
     cursor: pointer;
 }
 
+ #contact-wrap>p {
+   height: 100%;
+ }
+
 #contact-wrap:hover #icons-wrap {
     display: block;
 }
@@ -91,6 +95,11 @@ body {
     height: 300px;
     padding-top: 80px;
     box-sizing: border-box;
+}
+
+#tyfp-div p{
+  text-align: center;
+  font-weight: 300;
 }
 
 #home-btn-wrap {
